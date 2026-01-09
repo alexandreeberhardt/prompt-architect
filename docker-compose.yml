@@ -1,0 +1,9 @@
+services:
+  mealie-parser-ui:
+    build: .
+    container_name: nano_prompt_ui
+    ports:
+      - "8502:8502"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    restart: unless-stopped
