@@ -12,6 +12,11 @@ L'application utilise l'API d'OpenAI (modèle **GPT-4o**) pour agir comme un "Ar
 * **Interface Web :** Interface intuitive développée avec Streamlit pour saisir sa description, visualiser le JSON et télécharger le résultat.
 * **Déploiement conteneurisé :** Support complet pour Docker et Docker Compose.
 
+## Démonstration en ligne
+
+Une version de démonstration de l’application est accessible à l’adresse suivante :  
+https://prompt.alexeber.fr
+
 ## Prérequis techniques
 
 * Docker et Docker Compose (recommandé).
